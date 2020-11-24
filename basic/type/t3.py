@@ -11,3 +11,7 @@ print(y[1])
 print(y * 3)
 print(y[0:4])
 print(type(y))
+
+print(type((1)))
+print(type((1,)))
+print(type(()))
