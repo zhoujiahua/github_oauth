@@ -1,0 +1,21 @@
+pip install virtualenvwrapper-win
+----------------------------------------------------------------
+Power Shell
+Set-ExecutionPolicy Unrestricted 	# power shell 权限设置 Y
+pip install virtualenv 	#安装虚拟环境
+
+virtualenv . 	#配置库文件
+.\Scripts\activate 	#切换到虚拟环境
+deactivate 	#退出虚拟环境
+pip freeze 	#查看包模块
+pip install django 	#安装Django
+
+( django-admin.py / django-admin )  startproject mysite #创建mysite项目文件
+
+code .   		#vscode打开项目
+
+python .\manage.py runserver #启动服务
+http://127.0.0.1:8000/ #服务地址
+python .\manage.py migrate #解决报错
+
+python .\manage.py startapp jerry #创建jerry主文件
